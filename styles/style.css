@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color:white;
+}
+
+/* top banner */
+ /* section  */
+ 
+ .top-banner{
+    width: 1321px;
+    background-color: #161616;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    margin: 50px 140px;
+    
+ }
+ .partA{
+   margin-top: 50px;
+   padding: 40px;
+ }
+ .partA-header{
+   font-weight: 700;
+    font-size: 40px;
+ }
+ .button-partA{
+  font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    padding: 16px, 25px, 16px, 25px;
+    gap: 10px;
+    margin-top: 20px;
+ }
+ .partB img{
+   width: 581px;
+   height: 613px;
+ }
+
+
+ /*------- middle part ------- */
+ .upcommig-match{
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    padding: 15px 10px 15px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    border-radius: 10px;
+    justify-items: center;
+ }
+ 
+ .match{
+    background-color: white;
+    border-radius: 5px;
+    width: 252px;
+    height: 64px;
+    font-size: 18px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .match a{
+    text-decoration: none;
+    color: black;
+ }
+ #match{
+  background-color: red;
+  color: white;
+ }
+ #match a{
+  color: wheat;
+ }
+ 
+ .middle-part{
+   margin-left: 140px;
+   margin-top:140px;
+   margin-right: 140px;
+   display: flex;
+ }
+ .transfer-module{
+   margin-left: 24px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-column-gap: 24px;
+   grid-row-gap: 24px;
+ }
+ .lower{
+   margin-left: 20px;
+ }
+ .transfer{
+   width: 312px;
+   height: 362px;
+   border: 1px solid lightgray;
+   border-radius: 5px;
+   
+
+ }
+ .button-transfer{
+   border-radius: 5px;
+   background-color: white;
+   text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+ }
+ .time{
+   margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ /* ------footer ------ */
+ .goal{
+   background-color: black;
+   color:white;
+   width: 1600px;
+   height: 444px;
+   left: 0px;
+   top: 2090px;
+   
+ }
+ .goalA{
+   font-weight: 600;
+   text-align: center;
+   padding-top: 130px;
+
+ }
+ hr{
+   width: 1320px;
+   height: 0px;
+   left: 140px;
+   top: 2330px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+ .goalB{
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   margin-left:351px;
+   margin-right: 351px;
+   padding-bottom:130px ;
+ }
+  /* media add  */
+  .media{
+   justify-content: center;
+   display: flex;
+   gap: 20px;
+   /* font-size: 30px;
+   padding-bottom: 150px; */
+  }
+
+ /*--------- for tab -------- */
+ @media only screen and (max-width:576px){
+   .top-banner{
+      width: 100%;
+      
+   }
+   .upcommig-match{
+      background-color: white;
+      display: flex;
+   }
+   .middle-part{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      grid-column-gap: 10px;
+   }
+   .transfer-module{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   }
+   
+ }
