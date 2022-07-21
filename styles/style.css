@@ -29,7 +29,7 @@ body{
     font-size: 40px;
  }
  .button-partA{
-  font-size: 20px;
+    font-size: 20px;
     background-color: red;
     color: white;
     padding: 5px 10px;
@@ -153,17 +153,19 @@ body{
    margin-right: 351px;
    padding-bottom:130px ;
  }
+ .goalB a{
+  text-decoration: none;
+  color: white;
+}
   /* media add  */
   .media{
    justify-content: center;
    display: flex;
    gap: 20px;
-   /* font-size: 30px;
-   padding-bottom: 150px; */
   }
 
  /*--------- for tab -------- */
- @media only screen and (max-width:576px){
+ @media only screen and (min-width:577px) and (max-width:992px){
    .top-banner{
       width: 100%;
       
@@ -182,5 +184,34 @@ body{
       display: grid;
       grid-template-columns: repeat(2,1fr);
    }
+    
    
+ }
+ /*-------------- for mobile part ------------ */
+ @media only screen and (max-width:576px) {
+  .top-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .middle-part{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .transfer-module{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .goalB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .goalB a{
+    text-decoration: none;
+    color: white;
+  }
+  
  }

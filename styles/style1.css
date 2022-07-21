@@ -42,3 +42,107 @@ body{
    width: 581px;
    height: 613px;
  }
+/*------- middle part ------- */
+.middle-part{
+    display: flex;
+    margin-top: 140px;
+    margin-right: 140px;
+ }
+.upcommig-match{
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    padding: 15px 10px 15px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    border-radius: 10px;
+    justify-items: center;
+    margin-left: 140px;
+    margin-right: 20px;
+ }
+ 
+ .match{
+    background-color: white;
+    border-radius: 5px;
+    width: 252px;
+    height: 64px;
+    font-size: 18px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .match a{
+    text-decoration: none;
+    color: black;
+ }
+ #match{
+  background-color: red;
+  color: white;
+ }
+ #match a{
+  color: wheat;
+ } 
+ .games{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    
+ }
+ .sub-games{
+    width: 312px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+    padding: 10px 15px;
+    
+
+ }
+ .game{
+    display: flex;
+ }
+ /* ------footer ------ */
+ .goal{
+    background-color: black;
+    color:white;
+    width: 1600px;
+    /* height: 444px; */
+    left: 0px;
+    /* top: 2090px; */
+    margin-top: 140px;
+    
+  }
+  .goalA{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 130px;
+ 
+  }
+  hr{
+    width: 1320px;
+    height: 0px;
+    left: 140px;
+    top: 2330px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   margin-left: 140px;
+   margin-right: 140px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+  }
+  .goalB{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-left:351px;
+    margin-right: 351px;
+    padding-bottom:130px ;
+  }
+  .media{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+  }
+ 
